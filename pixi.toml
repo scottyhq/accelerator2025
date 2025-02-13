@@ -1,0 +1,15 @@
+[project]
+authors = ["Scott Henderson <scottyhq@gmail.com>"]
+channels = ["conda-forge"]
+name = "accelerator2025"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+xarray = ">=2025.1.2,<2026"
+ipykernel = ">=6.29.5,<7"
+flox = ">=0.10.0,<0.11"
+numbagg = ">=0.9.0,<0.10"
+dask = ">=2025.1.0,<2026"
